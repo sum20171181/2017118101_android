@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ThridActivity"></activity>
         <activity android:name=".SecondActivity" />
-        <activity android:name=".MainActivity" android:launchMode="singleInstance">
+        <activity android:name=".MainActivity" android:launchMode="standard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
