@@ -1,8 +1,10 @@
 package com.example.fourstarmodel;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -35,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
         Hello1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent=new Intent(MainActivity.this,MainActivity.class);
+                Intent intent = new Intent(Intent.ACTION_VIEW);    //为Intent设置Action属性
+                intent.setData(Uri.parse("http://www.baidu.com"));
                 startActivity(intent);
             }
         });
