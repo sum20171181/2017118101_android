@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onDestroy();
         mTimer.cancel();
     }
- 
+
     @Override
     public void onClick(View v){
         switch(v.getId()){
