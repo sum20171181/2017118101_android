@@ -8,7 +8,7 @@ FourStartModel文件--四种模式转换作业<br>
 AndroidThreadTest--安卓线程测试<br>
 AsyncTask--异步任务<br>
 BroadcastBestPractice--广播接收器测试<br>
-DataBaseTest--数据存储测试<br>
+DataBaseTest--数据增删查改测试<br>
 FilePresistenceTest--文件存储测试<br>
 ServiceBestPractice--服务练习<br>
 ListView--水果布局<br>
