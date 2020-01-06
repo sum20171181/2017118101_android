@@ -12,3 +12,4 @@ DataBaseTest--数据增删查改测试<br>
 FilePresistenceTest--文件存储测试<br>
 ServiceBestPractice--服务练习<br>
 ListView--水果布局<br>
+ContactsTest--电话簿练习
